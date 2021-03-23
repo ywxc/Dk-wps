@@ -98,7 +98,7 @@ def main(sid, userid):
     invite = wps_invite(sid)
     sign_in = wps_sign_in(userid)
     content = invite + sign_in
-    api = "https://sc.ftqq.com/[your-key].send"
+    api = "https://sctapi.ftqq.com/SCT22030TFFFeP3duhK9AcICokjBaw9sN.send"
     title = "Dk-WPS打卡通知"
     data = {
         "text": title,
@@ -108,4 +108,4 @@ def main(sid, userid):
 
 
 if __name__ == "__main__":
-    main(sid='sid', userid='userid')
+    main(sid='V02SYvyL9GUI2in0H389PLjmNdwajw800a7f3d3c00152c05d8', userid='355206616')
